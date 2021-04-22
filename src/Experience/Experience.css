@@ -1,0 +1,45 @@
+.title {
+    margin: 5rem 0 2rem 0;
+}
+
+h3 {
+    width: 50%;
+}
+
+.text {
+    width: 50%;
+}
+
+.square {
+    display: flex;
+    text-align: left;
+    padding: 3rem 0;
+    border-bottom: 1px solid lightgrey;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.text-area {
+    width: 50%;
+}
+
+ul {
+    margin: 3rem 2rem;
+    align-items: flex-end;
+}
+
+.experience-button {
+    color: black;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    grid-column: 1 / span 2;
+    background-color: steelblue;
+    margin: 3rem 0;
+}
+
+.button-container {
+    grid-column: 1 / span 2;
+    padding: 1rem;
+}

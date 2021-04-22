@@ -1,0 +1,46 @@
+.profile-pic {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    display: grid;
+    place-self: center;
+}
+
+.about-me-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 32px;
+    background-color: #ddf0ec;
+    border-left: 1px solid rgb(132, 207, 192);
+    border-right: 1px solid rgb(132, 207, 192);
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+
+.personal-info {
+    margin: 3rem 0;
+}
+
+.link {
+    color: steelblue;
+    margin-right: 1rem;
+}
+
+
+.button {
+    color: rgb(32, 83, 124);
+    height: 3rem;
+    width: 15rem;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    grid-column: 1 / span 2;
+    background-color: rgb(132, 207, 192);
+}
+
+.button-container {
+    grid-column: 1 / span 2;
+    padding: 1rem;
+}

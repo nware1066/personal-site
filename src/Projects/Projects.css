@@ -1,0 +1,49 @@
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgb(132, 207, 192);
+    border-right: 1px solid rgb(132, 207, 192);
+}
+
+.project-h1 {
+    background-color: #cce3de;
+    margin: 0;
+    padding: 2rem;
+    border-left: 1px solid rgb(132, 207, 192);
+    border-right: 1px solid rgb(132, 207, 192);
+}
+
+.project-link {
+    text-decoration: none;
+    color: steelblue;
+}
+
+.squares-wrapper {
+    background-color: #cce3de;
+}
+
+.project-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.square-pic {
+    width: 90%;
+    height: 350px;
+    justify-self: center;
+    object-fit: contain;
+}
+
+.project-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.project-text {
+    text-align: left;
+}
